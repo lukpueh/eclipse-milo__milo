@@ -60,3 +60,4 @@ jobs:
           sbom-file: ${{ env.PRODUCT_PATH }}/target/bom.json
           product-name: 'milo'
           product-version: ${{ steps.version.outputs.PROJECT_VERSION }}
+          staging: true
